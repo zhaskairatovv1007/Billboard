@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Thernaly';
+    src: url(Thernaly/Thernaly-Regular.otf);
+}
+.header{
+    height:100px;
+    width:100%;
+    background-color: black;
+    display: flex;
+}
+.charts-container{
+    width: 60%;
+    height:800px;
+    margin:auto;
+    background-color: white;
+}
+.header-center{
+    margin:auto;
+    width: 60%;
+    height:70px;
+    background-color: lightcoral;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size: large;
+}
+.header-center .a {
+    color:white;
+}
+.header-center .video {
+    color: red;
+}
+.header-center .photo {
+    color: orange;
+}
+.charts-sort{
+    height: 120px;
+    background-color: white;
+    margin-top:10px;
+}
+.charts-up{
+    height:120px;
+   background-color: maroon;
+    margin-top:10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.charts-new{
+    height:120px;
+ background-color: maroon;
+    margin-top:10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.charts-down{
+    height:120px;
+    background-color: maroon;
+    margin-top:10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.charts-img {
+    height:100px;
+    width:90px;
+}
